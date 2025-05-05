@@ -7,10 +7,9 @@ const App = () => {
     <div>
       <Page
         header="Welcome to my Website"
+        dis="This is the content of my website."
         footer={`© ${new Date().getFullYear()} My Website. All rights reserved.`}
-      >
-        <p>This is the content of my website.</p>
-      </Page>
+      ></Page>
     </div>
   );
 };
